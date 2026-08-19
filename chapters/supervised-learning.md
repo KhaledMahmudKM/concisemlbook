@@ -106,19 +106,19 @@ Using many such rows, a regression model can learn how house characteristics aff
 
 ## Benefits of Supervised Learning
 
-✅ Straightforward to understand and implement  
-✅ Effective when you have labeled data  
-✅ Broad range of powerful algorithms available  
-✅ Used in many practical applications
+- Straightforward to understand and implement  
+- Effective when you have labeled data  
+- Broad range of powerful algorithms available  
+- Used in many practical applications
 
 ---
 
 ## Limitations
 
-❌ Requires large amounts of labeled data  
-❌ Labeling can be expensive or time-consuming  
-❌ May not work well if data is noisy or biased  
-❌ Susceptible to overfitting without proper validation
+- Requires large amounts of labeled data  
+- Labeling can be expensive or time-consuming  
+- May not work well if data is noisy or biased  
+- Susceptible to overfitting without proper validation
 
 ---
 

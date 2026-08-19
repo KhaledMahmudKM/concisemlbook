@@ -85,7 +85,7 @@ MAE measures the average absolute difference between the predicted and actual va
 
 Formula:
 
-MAE = (1/n) * Σ|y_true - y_pred|
+$$MAE = \frac{1}{n}\sum|y_{true} - y_{pred}|$$
 
 
 #### b. **Mean Squared Error (MSE)**
@@ -93,7 +93,7 @@ MSE penalizes larger errors more than smaller ones by squaring the differences. 
 
 Formula:
 
-MSE = (1/n) * Σ(y_true - y_pred)^2
+$$MSE = \frac{1}{n}\sum(y_{true} - y_{pred})^2$$
 
 
 #### c. **Root Mean Squared Error (RMSE)**
@@ -101,7 +101,7 @@ RMSE is the square root of MSE and is in the same unit as the target variable. I
 
 Formula:
 
-RMSE = √MSE
+$$RMSE = \sqrt{MSE}$$
 
 
 #### d. **R-squared (R²)**
@@ -109,7 +109,7 @@ R-squared measures the proportion of variance in the dependent variable that is 
 
 Formula:
 
-R² = 1 - (Σ(y_true - y_pred)² / Σ(y_true - mean(y_true))²)
+$$R^2 = 1 - \frac{\sum(y_{true} - y_{pred})^2}{\sum(y_{true} - \overline{y}_{true})^2}$$
 
 
 ---

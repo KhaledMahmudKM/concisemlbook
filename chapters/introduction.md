@@ -42,7 +42,7 @@ In traditional programming, humans write explicit rules that define how inputs a
 
 This booklet covers the fundamentals of machine learning, including key concepts, types of learning, model evaluation, and ethical considerations. By the end, you’ll have a clear roadmap for further study or experimentation.
 
-😀
+
 ```
 “Machine learning is the last invention that humanity will ever need to make.” – Nick Bostrom
 ```

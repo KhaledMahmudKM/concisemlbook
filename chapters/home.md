@@ -2,7 +2,7 @@
 
 A practical and compact guide to core machine learning concepts.
 
-<img src="cover_image.jpeg" alt="Cover Image" width="500" >
+<img src="cover_image.jpeg" alt="Cover Image" width="100%" >
 
 ---
 

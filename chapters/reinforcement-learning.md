@@ -103,10 +103,10 @@ Over time, the agent learns which moves bring it closer to the goal with the hig
 
 ## Challenges
 
-❌ Often requires many interactions with the environment  
-❌ Hard to guarantee convergence in complex settings  
-❌ Reward design is difficult — poorly defined rewards can lead to unintended behavior  
-❌ Exploration vs. exploitation trade-off can be tricky to balance
+- Often requires many interactions with the environment  
+- Hard to guarantee convergence in complex settings  
+- Reward design is difficult — poorly defined rewards can lead to unintended behavior  
+- Exploration vs. exploitation trade-off can be tricky to balance
 
 ---
 

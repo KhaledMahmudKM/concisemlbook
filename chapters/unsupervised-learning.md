@@ -66,23 +66,23 @@ These insights help businesses tailor marketing strategies.
 
 ## Applications
 
-✅ E-commerce:
+### E-commerce:
 - Recommender systems
 - Market basket analysis
 
-✅ Finance:
+### Finance:
 - Fraud detection
 - Transaction clustering
 
-✅ Healthcare:
+### Healthcare:
 - Grouping patients with similar conditions
 - Discovering unknown disease patterns
 
-✅ NLP:
+### NLP:
 - Topic modeling
 - Word embeddings (e.g., Word2Vec)
 
-✅ Image & Video:
+### Image & Video:
 - Organizing photo albums
 - Unlabeled object detection
 
@@ -104,19 +104,19 @@ When labeled data is available later, **external validation** can be used (e.g.,
 
 ## Benefits
 
-✅ No need for labeled data  
-✅ Reveals hidden patterns and structure  
-✅ Can be applied to a wide variety of domains  
-✅ Often leads to data-driven insights
+- No need for labeled data  
+- Reveals hidden patterns and structure  
+- Can be applied to a wide variety of domains  
+- Often leads to data-driven insights
 
 ---
 
 ## Challenges
 
-❌ Lack of labels makes evaluation difficult  
-❌ Sensitive to noise and outliers  
-❌ Cluster boundaries may be ambiguous  
-❌ May require domain knowledge to interpret results
+- Lack of labels makes evaluation difficult  
+- Sensitive to noise and outliers  
+- Cluster boundaries may be ambiguous  
+- May require domain knowledge to interpret results
 
 ---
 

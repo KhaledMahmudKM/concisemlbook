@@ -13,13 +13,13 @@ It tries to fit a straight line (or hyperplane in higher dimensions) through the
 ### Basic Equation:
 
 For one feature (univariate):
-```
-y = mx + b
-```
+$$y = mx + b$$
+
 For multiple features (multivariate):
-```
-y = w₁x₁ + w₂x₂ + ... + wₙxₙ + b
-```
+
+
+$$y = w_1x_1 + w_2x_2 + \dots + w_nx_n + b$$
+
 
 Where:
 - `y`: Predicted value
@@ -50,9 +50,9 @@ Find the line that **minimizes the difference** between the predicted and actual
 This difference is measured using a **loss function**, commonly:
 
 ### Mean Squared Error (MSE):
-```
-MSE = (1/n) * Σ(ŷᵢ - yᵢ)²
-```
+
+$$MSE = \frac{1}{n}\sum_{i=1}^{n}(\hat{y}_i - y_i)^2$$
+
 Where:
 - `ŷᵢ` is the predicted value
 - `yᵢ` is the actual value
@@ -82,11 +82,11 @@ Adds a penalty term to avoid overfitting.
 
 Linear regression makes several key assumptions:
 
-✅ Linearity: Relationship between features and target is linear  
-✅ Homoscedasticity: Equal variance of residuals  
-✅ Independence: Observations are independent  
-✅ Normality: Residuals are normally distributed  
-✅ No multicollinearity: Features are not highly correlated with each other
+- Linearity: Relationship between features and target is linear  
+- Homoscedasticity: Equal variance of residuals  
+- Independence: Observations are independent  
+- Normality: Residuals are normally distributed  
+- No multicollinearity: Features are not highly correlated with each other
 
 Violating these assumptions may lead to inaccurate models.
 
@@ -95,13 +95,15 @@ Violating these assumptions may lead to inaccurate models.
 ## How It's Trained
 
 1. **Initialize weights and bias** (often to 0)
-2. **Make predictions**: `ŷ = w·x + b`
+2. **Make predictions**: $y = mx + b$
 3. **Calculate loss** using MSE
 4. **Update weights** using gradient descent:
-   ```
-   w = w - α * ∂Loss/∂w
-   b = b - α * ∂Loss/∂b
-   ```
+
+   - $w = w - \alpha \frac{\partial Loss}{\partial w}$
+
+   - $b = b - \alpha \frac{\partial Loss}{\partial b}$
+
+
    Where `α` is the learning rate.
 
 Repeat until the loss converges.
@@ -121,19 +123,19 @@ For regression problems like linear regression, use:
 
 ## Advantages
 
-✅ Easy to implement and interpret  
-✅ Fast and efficient  
-✅ Works well with linearly separable data  
-✅ Provides insights into feature importance via coefficients
+- Easy to implement and interpret  
+- Fast and efficient  
+- Works well with linearly separable data  
+- Provides insights into feature importance via coefficients
 
 ---
 
 ## Disadvantages
 
-❌ Assumes a linear relationship  
-❌ Sensitive to outliers  
-❌ Poor performance on complex nonlinear problems  
-❌ Can overfit if many features are used without regularization
+- Assumes a linear relationship  
+- Sensitive to outliers  
+- Poor performance on complex nonlinear problems  
+- Can overfit if many features are used without regularization
 
 ---
 
