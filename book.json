@@ -7,5 +7,7 @@
   "description": "A concise Introduction to Machine Learning.",
   "homeUrl": "https://khaledmahmudkm.github.io/stacks/",
   "logo": "logo.svg",
-  "math": true
+  "math": true,
+  "palette": "lagoon",
+  "_comment": "palette options are: moss, harbor, lagoon, sepia, clay"
 }
